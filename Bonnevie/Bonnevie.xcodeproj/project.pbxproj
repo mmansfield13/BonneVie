@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C4256A52C24946A00A19CC1 /* Onboarding Welcome View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4256A42C24946A00A19CC1 /* Onboarding Welcome View.swift */; };
+		8C4256A62C24946A00A19CC1 /* Onboarding Welcome View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4256A42C24946A00A19CC1 /* Onboarding Welcome View.swift */; };
+		8C4256A82C2498C000A19CC1 /* NextScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4256A72C2498C000A19CC1 /* NextScreenView.swift */; };
+		8C4256A92C2498C000A19CC1 /* NextScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4256A72C2498C000A19CC1 /* NextScreenView.swift */; };
+		8C6CF9602C1A1AAB004D225A /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CF95F2C1A1AAB004D225A /* RestaurantView.swift */; };
+		8C6CF9612C1A1AAB004D225A /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CF95F2C1A1AAB004D225A /* RestaurantView.swift */; };
+		8C6CF9632C1A1B54004D225A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CF9622C1A1B54004D225A /* ViewModel.swift */; };
+		8C6CF9642C1A1B54004D225A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CF9622C1A1B54004D225A /* ViewModel.swift */; };
+		8C6CF9662C1A2464004D225A /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CF9652C1A2464004D225A /* ButtonView.swift */; };
+		8C6CF9672C1A2464004D225A /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CF9652C1A2464004D225A /* ButtonView.swift */; };
+		8C6CF9692C1A2B9E004D225A /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CF9682C1A2B9E004D225A /* Restaurant.swift */; };
+		8C6CF96A2C1A2B9E004D225A /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CF9682C1A2B9E004D225A /* Restaurant.swift */; };
+		8C9417692C18EC6D00DC2556 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9417682C18EC6D00DC2556 /* WelcomeScreen.swift */; };
+		8C94176A2C18EC6D00DC2556 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9417682C18EC6D00DC2556 /* WelcomeScreen.swift */; };
+		8C94176C2C1A180E00DC2556 /* YourVibeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C94176B2C1A180D00DC2556 /* YourVibeScreen.swift */; };
+		8C94176D2C1A180E00DC2556 /* YourVibeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C94176B2C1A180D00DC2556 /* YourVibeScreen.swift */; };
+		8CC0B0982C14049800FBE069 /* BonnevieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0B0972C14049800FBE069 /* BonnevieApp.swift */; };
+		8CC0B09A2C14049800FBE069 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0B0992C14049800FBE069 /* ContentView.swift */; };
+		8CC0B09C2C14049A00FBE069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CC0B09B2C14049A00FBE069 /* Assets.xcassets */; };
+		8CC0B09F2C14049A00FBE069 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CC0B09E2C14049A00FBE069 /* Preview Assets.xcassets */; };
+		8CC0B0A92C14049A00FBE069 /* BonnevieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0B0A82C14049A00FBE069 /* BonnevieTests.swift */; };
+		8CC0B0B32C14049A00FBE069 /* BonnevieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0B0B22C14049A00FBE069 /* BonnevieUITests.swift */; };
+		8CC0B0B52C14049A00FBE069 /* BonnevieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0B0B42C14049A00FBE069 /* BonnevieUITestsLaunchTests.swift */; };
+		8CC0B0C22C140D7C00FBE069 /* Bonnevie Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC0B0C12C140D7C00FBE069 /* Bonnevie Launch Screen.storyboard */; };
+		8CC0B0C32C140D7C00FBE069 /* Bonnevie Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC0B0C12C140D7C00FBE069 /* Bonnevie Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CC0B0A52C14049A00FBE069 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CC0B08C2C14049800FBE069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CC0B0932C14049800FBE069;
+			remoteInfo = Bonnevie;
+		};
+		8CC0B0AF2C14049A00FBE069 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CC0B08C2C14049800FBE069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CC0B0932C14049800FBE069;
+			remoteInfo = Bonnevie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C4256A42C24946A00A19CC1 /* Onboarding Welcome View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Onboarding Welcome View.swift"; sourceTree = "<group>"; };
+		8C4256A72C2498C000A19CC1 /* NextScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextScreenView.swift; sourceTree = "<group>"; };
+		8C6CF95F2C1A1AAB004D225A /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
+		8C6CF9622C1A1B54004D225A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		8C6CF9652C1A2464004D225A /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		8C6CF9682C1A2B9E004D225A /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		8C9417682C18EC6D00DC2556 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		8C94176B2C1A180D00DC2556 /* YourVibeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourVibeScreen.swift; sourceTree = "<group>"; };
+		8CC0B0942C14049800FBE069 /* Bonnevie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bonnevie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC0B0972C14049800FBE069 /* BonnevieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonnevieApp.swift; sourceTree = "<group>"; };
+		8CC0B0992C14049800FBE069 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8CC0B09B2C14049A00FBE069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CC0B09E2C14049A00FBE069 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CC0B0A42C14049A00FBE069 /* BonnevieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonnevieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC0B0A82C14049A00FBE069 /* BonnevieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonnevieTests.swift; sourceTree = "<group>"; };
+		8CC0B0AE2C14049A00FBE069 /* BonnevieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonnevieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC0B0B22C14049A00FBE069 /* BonnevieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonnevieUITests.swift; sourceTree = "<group>"; };
+		8CC0B0B42C14049A00FBE069 /* BonnevieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonnevieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CC0B0C12C140D7C00FBE069 /* Bonnevie Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Bonnevie Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CC0B0912C14049800FBE069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC0B0A12C14049A00FBE069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC0B0AB2C14049A00FBE069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CC0B08B2C14049800FBE069 = {
+			isa = PBXGroup;
+			children = (
+				8C4256A72C2498C000A19CC1 /* NextScreenView.swift */,
+				8C4256A42C24946A00A19CC1 /* Onboarding Welcome View.swift */,
+				8C6CF95F2C1A1AAB004D225A /* RestaurantView.swift */,
+				8C6CF9682C1A2B9E004D225A /* Restaurant.swift */,
+				8C94176B2C1A180D00DC2556 /* YourVibeScreen.swift */,
+				8C6CF9652C1A2464004D225A /* ButtonView.swift */,
+				8C6CF9622C1A1B54004D225A /* ViewModel.swift */,
+				8C9417682C18EC6D00DC2556 /* WelcomeScreen.swift */,
+				8CC0B0C12C140D7C00FBE069 /* Bonnevie Launch Screen.storyboard */,
+				8CC0B0962C14049800FBE069 /* Bonnevie */,
+				8CC0B0A72C14049A00FBE069 /* BonnevieTests */,
+				8CC0B0B12C14049A00FBE069 /* BonnevieUITests */,
+				8CC0B0952C14049800FBE069 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CC0B0952C14049800FBE069 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CC0B0942C14049800FBE069 /* Bonnevie.app */,
+				8CC0B0A42C14049A00FBE069 /* BonnevieTests.xctest */,
+				8CC0B0AE2C14049A00FBE069 /* BonnevieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CC0B0962C14049800FBE069 /* Bonnevie */ = {
+			isa = PBXGroup;
+			children = (
+				8CC0B0972C14049800FBE069 /* BonnevieApp.swift */,
+				8CC0B0992C14049800FBE069 /* ContentView.swift */,
+				8CC0B09B2C14049A00FBE069 /* Assets.xcassets */,
+				8CC0B09D2C14049A00FBE069 /* Preview Content */,
+			);
+			path = Bonnevie;
+			sourceTree = "<group>";
+		};
+		8CC0B09D2C14049A00FBE069 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8CC0B09E2C14049A00FBE069 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8CC0B0A72C14049A00FBE069 /* BonnevieTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CC0B0A82C14049A00FBE069 /* BonnevieTests.swift */,
+			);
+			path = BonnevieTests;
+			sourceTree = "<group>";
+		};
+		8CC0B0B12C14049A00FBE069 /* BonnevieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CC0B0B22C14049A00FBE069 /* BonnevieUITests.swift */,
+				8CC0B0B42C14049A00FBE069 /* BonnevieUITestsLaunchTests.swift */,
+			);
+			path = BonnevieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CC0B0932C14049800FBE069 /* Bonnevie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC0B0B82C14049A00FBE069 /* Build configuration list for PBXNativeTarget "Bonnevie" */;
+			buildPhases = (
+				8CC0B0902C14049800FBE069 /* Sources */,
+				8CC0B0912C14049800FBE069 /* Frameworks */,
+				8CC0B0922C14049800FBE069 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bonnevie;
+			productName = Bonnevie;
+			productReference = 8CC0B0942C14049800FBE069 /* Bonnevie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CC0B0A32C14049A00FBE069 /* BonnevieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC0B0BB2C14049A00FBE069 /* Build configuration list for PBXNativeTarget "BonnevieTests" */;
+			buildPhases = (
+				8CC0B0A02C14049A00FBE069 /* Sources */,
+				8CC0B0A12C14049A00FBE069 /* Frameworks */,
+				8CC0B0A22C14049A00FBE069 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CC0B0A62C14049A00FBE069 /* PBXTargetDependency */,
+			);
+			name = BonnevieTests;
+			productName = BonnevieTests;
+			productReference = 8CC0B0A42C14049A00FBE069 /* BonnevieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CC0B0AD2C14049A00FBE069 /* BonnevieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC0B0BE2C14049A00FBE069 /* Build configuration list for PBXNativeTarget "BonnevieUITests" */;
+			buildPhases = (
+				8CC0B0AA2C14049A00FBE069 /* Sources */,
+				8CC0B0AB2C14049A00FBE069 /* Frameworks */,
+				8CC0B0AC2C14049A00FBE069 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CC0B0B02C14049A00FBE069 /* PBXTargetDependency */,
+			);
+			name = BonnevieUITests;
+			productName = BonnevieUITests;
+			productReference = 8CC0B0AE2C14049A00FBE069 /* BonnevieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CC0B08C2C14049800FBE069 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8CC0B0932C14049800FBE069 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					8CC0B0A32C14049A00FBE069 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 8CC0B0932C14049800FBE069;
+					};
+					8CC0B0AD2C14049A00FBE069 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 8CC0B0932C14049800FBE069;
+					};
+				};
+			};
+			buildConfigurationList = 8CC0B08F2C14049800FBE069 /* Build configuration list for PBXProject "Bonnevie" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CC0B08B2C14049800FBE069;
+			productRefGroup = 8CC0B0952C14049800FBE069 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CC0B0932C14049800FBE069 /* Bonnevie */,
+				8CC0B0A32C14049A00FBE069 /* BonnevieTests */,
+				8CC0B0AD2C14049A00FBE069 /* BonnevieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CC0B0922C14049800FBE069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC0B09F2C14049A00FBE069 /* Preview Assets.xcassets in Resources */,
+				8CC0B09C2C14049A00FBE069 /* Assets.xcassets in Resources */,
+				8CC0B0C22C140D7C00FBE069 /* Bonnevie Launch Screen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC0B0A22C14049A00FBE069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC0B0C32C140D7C00FBE069 /* Bonnevie Launch Screen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC0B0AC2C14049A00FBE069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CC0B0902C14049800FBE069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC0B09A2C14049800FBE069 /* ContentView.swift in Sources */,
+				8CC0B0982C14049800FBE069 /* BonnevieApp.swift in Sources */,
+				8C4256A52C24946A00A19CC1 /* Onboarding Welcome View.swift in Sources */,
+				8C4256A82C2498C000A19CC1 /* NextScreenView.swift in Sources */,
+				8C94176C2C1A180E00DC2556 /* YourVibeScreen.swift in Sources */,
+				8C9417692C18EC6D00DC2556 /* WelcomeScreen.swift in Sources */,
+				8C6CF9602C1A1AAB004D225A /* RestaurantView.swift in Sources */,
+				8C6CF9662C1A2464004D225A /* ButtonView.swift in Sources */,
+				8C6CF9632C1A1B54004D225A /* ViewModel.swift in Sources */,
+				8C6CF9692C1A2B9E004D225A /* Restaurant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC0B0A02C14049A00FBE069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6CF9672C1A2464004D225A /* ButtonView.swift in Sources */,
+				8C4256A92C2498C000A19CC1 /* NextScreenView.swift in Sources */,
+				8CC0B0A92C14049A00FBE069 /* BonnevieTests.swift in Sources */,
+				8C4256A62C24946A00A19CC1 /* Onboarding Welcome View.swift in Sources */,
+				8C94176D2C1A180E00DC2556 /* YourVibeScreen.swift in Sources */,
+				8C6CF96A2C1A2B9E004D225A /* Restaurant.swift in Sources */,
+				8C6CF9612C1A1AAB004D225A /* RestaurantView.swift in Sources */,
+				8C6CF9642C1A1B54004D225A /* ViewModel.swift in Sources */,
+				8C94176A2C18EC6D00DC2556 /* WelcomeScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC0B0AA2C14049A00FBE069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC0B0B52C14049A00FBE069 /* BonnevieUITestsLaunchTests.swift in Sources */,
+				8CC0B0B32C14049A00FBE069 /* BonnevieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CC0B0A62C14049A00FBE069 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CC0B0932C14049800FBE069 /* Bonnevie */;
+			targetProxy = 8CC0B0A52C14049A00FBE069 /* PBXContainerItemProxy */;
+		};
+		8CC0B0B02C14049A00FBE069 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CC0B0932C14049800FBE069 /* Bonnevie */;
+			targetProxy = 8CC0B0AF2C14049A00FBE069 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8CC0B0B62C14049A00FBE069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CC0B0B72C14049A00FBE069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CC0B0B92C14049A00FBE069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bonnevie/Preview Content\"";
+				DEVELOPMENT_TEAM = HD869Y7QN7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Bonnevie Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = msu.Bonnevie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CC0B0BA2C14049A00FBE069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bonnevie/Preview Content\"";
+				DEVELOPMENT_TEAM = HD869Y7QN7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Bonnevie Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = msu.Bonnevie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CC0B0BC2C14049A00FBE069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HD869Y7QN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = msu.BonnevieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bonnevie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bonnevie";
+			};
+			name = Debug;
+		};
+		8CC0B0BD2C14049A00FBE069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HD869Y7QN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = msu.BonnevieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bonnevie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bonnevie";
+			};
+			name = Release;
+		};
+		8CC0B0BF2C14049A00FBE069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HD869Y7QN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = msu.BonnevieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bonnevie;
+			};
+			name = Debug;
+		};
+		8CC0B0C02C14049A00FBE069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HD869Y7QN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = msu.BonnevieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bonnevie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CC0B08F2C14049800FBE069 /* Build configuration list for PBXProject "Bonnevie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC0B0B62C14049A00FBE069 /* Debug */,
+				8CC0B0B72C14049A00FBE069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC0B0B82C14049A00FBE069 /* Build configuration list for PBXNativeTarget "Bonnevie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC0B0B92C14049A00FBE069 /* Debug */,
+				8CC0B0BA2C14049A00FBE069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC0B0BB2C14049A00FBE069 /* Build configuration list for PBXNativeTarget "BonnevieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC0B0BC2C14049A00FBE069 /* Debug */,
+				8CC0B0BD2C14049A00FBE069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC0B0BE2C14049A00FBE069 /* Build configuration list for PBXNativeTarget "BonnevieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC0B0BF2C14049A00FBE069 /* Debug */,
+				8CC0B0C02C14049A00FBE069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CC0B08C2C14049800FBE069 /* Project object */;
+}
